@@ -1,0 +1,25 @@
+<device type="PC">
+  <xmlbuild v="Apple 9.1"/>
+  <xmlmanifest build="1.6" access="neo" async defer/>
+  <javascript src="builds/intrpit" async="true"/>
+  <ui src="src/wpbuilds/pc/ui.xaml"/>
+</device>
+<device type="mac">
+  <applemanifest inf="unknown" haptics=&sys.refer/>
+  <ubant int="false">
+  <appleinterface src="src/wpbuilds/mac/ui.xaml"/>
+</device>
+<device type="phone_nvx">
+  <uses
+    onlineservers
+    webpage
+    filestorage
+    bluetooth
+    wifi
+    storage
+    ram
+    all(j,sv,cold,etx)
+  />
+  <ui src="src/wpbuilds/phone/ui.xaml>
+</device>
+<devicet/>
